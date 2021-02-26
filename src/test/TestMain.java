@@ -9,7 +9,7 @@ public class TestMain {
         int start1 = new Random().nextInt(500) - 250;
         int start2 = new Random().nextInt(500) - 250;
 
-        System.out.println("robot1 start point - " + start1 + "robot2 start point - " + start2);
+        System.out.println("robot1 start point - " + start1 + " robot2 start point - " + start2);
 
         Robo robo1 = new Robo("robo1", start1, start2);
         Robo robo2 = new Robo("robo2", start2, start1);
